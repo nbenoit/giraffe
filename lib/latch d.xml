@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Circuit name="latch d">
+<Node class="giraffe.ui.nodes.Input1bitUI" node_name="d" x="155" y="61">
+<Anchor id="0">
+<Link id="40" index="0"/>
+<Link id="42" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.GateNotUI" x="192" y="39">
+<Anchor id="1">
+<Link id="41" index="0"/>
+</Anchor>
+<Anchor id="0">
+<Link id="40" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Input1bitUI" node_name="clk" x="89" y="80">
+<Anchor id="0">
+<Link id="38" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Output1bitUI" node_name="q" x="371" y="42">
+<Anchor id="0">
+<Link id="34" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Output1bitUI" node_name="/q" x="328" y="61">
+<Anchor id="0">
+<Link id="35" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.CompositeNodeUI" file_name="latch rs.xml" x="255" y="38">
+<Anchor id="0">
+<Link id="41" index="1"/>
+</Anchor>
+<Anchor id="4">
+<Link id="35" index="0"/>
+</Anchor>
+<Anchor id="3">
+<Link id="34" index="0"/>
+</Anchor>
+<Anchor id="1">
+<Link id="42" index="1"/>
+</Anchor>
+<Anchor id="2">
+<Link id="38" index="1"/>
+</Anchor>
+</Node>
+</Circuit>

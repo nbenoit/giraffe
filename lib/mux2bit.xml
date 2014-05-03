@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Circuit name="mux2bit">
+<Node class="giraffe.ui.nodes.Input1bitUI" node_name="x0" x="87" y="50">
+<Anchor id="0">
+<Link id="11" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.GateAndUI" x="170" y="51">
+<Anchor id="1">
+<Link id="16" index="1"/>
+</Anchor>
+<Anchor id="2">
+<Link id="13" index="0"/>
+</Anchor>
+<Anchor id="0">
+<Link id="11" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.GateAndUI" x="281" y="112">
+<Anchor id="1">
+<Link id="14" index="1"/>
+</Anchor>
+<Anchor id="0">
+<Link id="9" index="1"/>
+</Anchor>
+<Anchor id="2">
+<Link id="12" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.WireUI" x="82" y="94">
+<Anchor id="1">
+<Link id="17" index="0"/>
+</Anchor>
+<Anchor id="0">
+<Link id="18" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.GateOrUI" x="326" y="57">
+<Anchor id="2">
+<Link id="5" index="0"/>
+</Anchor>
+<Anchor id="1">
+<Link id="12" index="0"/>
+</Anchor>
+<Anchor id="0">
+<Link id="13" index="1"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.GateNotUI" x="130" y="88">
+<Anchor id="0">
+<Link id="17" index="1"/>
+</Anchor>
+<Anchor id="1">
+<Link id="16" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Input1bitUI" node_name="x1" x="244" y="87">
+<Anchor id="0">
+<Link id="9" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Input1bitUI" node_name="a0" x="45" y="123">
+<Anchor id="0">
+<Link id="14" index="0"/>
+<Link id="18" index="0"/>
+</Anchor>
+</Node>
+<Node class="giraffe.ui.nodes.Output1bitUI" node_name="y" x="405" y="62">
+<Anchor id="0">
+<Link id="5" index="1"/>
+</Anchor>
+</Node>
+</Circuit>

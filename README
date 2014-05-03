@@ -1,0 +1,28 @@
+	Giraffe release 1.0
+
+These are the release notes for giraffe version 1.0
+Read them carefully, as they tell you what this is all about.
+
+
+WHAT IS GIRAFFE ?
+
+ GIRAFFE is a very simple logic circuit simulator. It consists of a
+ circuit editor and a chronogram viewer. This program has been written
+ for personnal use, so  don't blame me if you think I am stupid doing
+ such tool for the others.
+
+ It is written in Java and it has been tested only on Sun Java virtual
+ machine version 1.5.
+
+
+HOW TO RUN ?
+
+ For simplicity, the program is already compiled (you may recompile it
+ using the provided makefile). Just run 'giraffe.sh' and don't worry
+ about the rest.
+
+
+--
+
+$RCSfile: README,v $
+$Date: 2006/06/03 13:47:54 $ - $Revision: 1.1 $
